@@ -1,0 +1,9 @@
+{
+	"name": "df-devin",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e7e9ef33-2f26-4039-bf80-7a2ae82de67d",
+		"tenantId": "acde34b7-7204-4c14-bf26-041854ef831d"
+	}
+}

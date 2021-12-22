@@ -1,0 +1,22 @@
+{
+	"name": "MyExcel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "devin_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Cars",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "data.xlsx",
+				"fileSystem": "process-excel-demo"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
